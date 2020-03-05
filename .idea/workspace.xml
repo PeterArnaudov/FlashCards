@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="22ca504a-3e50-49ad-9ba0-7c09455382c9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -242,6 +242,15 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="-1976743880">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FavoritesManager">
     <favorites_list name="Flash Cards v3" />
@@ -455,62 +464,8 @@
         <subPane>
           <expand>
             <path>
-              <item name="Flash Cards v3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Flash Cards v3" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Flash Cards v3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Flash Cards v3" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Flash Cards v3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Flash Cards v3" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Flash Cards v3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Flash Cards v3" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Flash Cards v3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Flash Cards v3" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Flash Cards v3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Flash Cards v3" type="462c0819:PsiDirectoryNode" />
-              <item name="scripts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Flash Cards v3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Flash Cards v3" type="462c0819:PsiDirectoryNode" />
-              <item name="scripts" type="462c0819:PsiDirectoryNode" />
-              <item name="handlers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Flash Cards v3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Flash Cards v3" type="462c0819:PsiDirectoryNode" />
-              <item name="scripts" type="462c0819:PsiDirectoryNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Flash Cards v3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Flash Cards v3" type="462c0819:PsiDirectoryNode" />
-              <item name="styles" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Flash Cards v3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Flash Cards v3" type="462c0819:PsiDirectoryNode" />
-              <item name="styles" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="FlashCards" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FlashCards" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -549,7 +504,7 @@
     </option>
   </component>
   <component name="RunManager" selected="JavaScript Debug.index.html">
-    <configuration name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Flash Cards v3/index.html">
+    <configuration name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/FlashCards/index.html">
       <method v="2" />
     </configuration>
     <configuration name="app.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="app.js" working-dir="$PROJECT_DIR$/scripts/services">
@@ -559,9 +514,9 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="JavaScript Debug.index.html" />
       <item itemvalue="Node.js.app.js" />
       <item itemvalue="Node.js.scripts.js" />
-      <item itemvalue="JavaScript Debug.index.html" />
     </list>
     <recent_temporary>
       <list>
@@ -604,11 +559,12 @@
       <workItem from="1582724036663" duration="958000" />
       <workItem from="1583406609759" duration="94000" />
       <workItem from="1583406969473" duration="12000" />
+      <workItem from="1583409443566" duration="51000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="220836000" />
+    <option name="totallyTimeSpent" value="220887000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -668,12 +624,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json" />
-    <entry file="file://$USER_HOME$/Desktop/testcodes js/javascript.js" />
+    <entry file="file://$PROJECT_DIR$/../testcodes js/javascript.js" />
     <entry file="file://$PROJECT_DIR$/node_modules/popper.js/dist/popper.js" />
     <entry file="file://$PROJECT_DIR$/node_modules/bootstrap/dist/js/bootstrap.bundle.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/testcodes js/test.html" />
+    <entry file="file://$PROJECT_DIR$/../testcodes js/test.html" />
     <entry file="file://$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap-grid.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -755,23 +711,9 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/challenge/quiz.hbs" />
-    <entry file="file://$PROJECT_DIR$/../../Archive/JS Core/JS Applications/Solutions/Exam/templates/offers/dashboard.hbs">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../Archive/JS Core/JS Applications/Solutions/Exam/templates/offers/offer.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="8" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../Archive/JS Core/JS Applications/Solutions/Exam/scripts/handlers/offers-handler.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="55" selection-start-line="55" selection-end-line="55" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Archive/JS Core/JS Applications/Solutions/Exam/templates/offers/dashboard.hbs" />
+    <entry file="file://$USER_HOME$/Archive/JS Core/JS Applications/Solutions/Exam/templates/offers/offer.hbs" />
+    <entry file="file://$USER_HOME$/Archive/JS Core/JS Applications/Solutions/Exam/scripts/handlers/offers-handler.js" />
     <entry file="file://$PROJECT_DIR$/scripts/services/card-service.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
