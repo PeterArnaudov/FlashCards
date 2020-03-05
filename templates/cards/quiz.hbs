@@ -1,0 +1,36 @@
+{{> header}}
+<div>
+    <div class="mt-2 mb-2 mr-auto ml-auto w-75">
+        <div class="card text-white bg-success w-50 d-inline-block" style="max-width: 20rem;">
+            <div class="card-body">
+                <h4 class="card-title mb-0">Correct: <h1>{{correct}}</h1></h4>
+            </div>
+        </div>
+        <div class="card text-white bg-danger w-50 d-inline-block" style="max-width: 20rem;">
+            <div class="card-body">
+                <h4 class="card-title mb-0">Wrong: <h1>{{wrong}}</h1></h4>
+            </div>
+        </div>
+        <div class="mt-2 mr-auto ml-auto">
+            {{> card}}
+        </div>
+    </div>
+    <form class="w-25 mb-1 mr-auto ml-auto" action="#/rateCard/:{{id}}/:rate" method="post">
+        <select name="rating" class="custom-select w-50 d-inline-block selectInput">
+            <option value="" selected hidden>Choose rating</option>
+            <option value="1">1 ★</option>
+            <option value="2">2 ★</option>
+            <option value="3">3 ★</option>
+            <option value="4">4 ★</option>
+            <option value="5">5 ★</option>
+        </select>
+        <input type="submit" id="rate" value="Rate" class="btn btn-primary mt-2 mb-2 w-25 d-inline-block">
+    </form>
+    <textarea class="form-control ml-auto mr-auto w-25 darkTextarea" placeholder="Enter your answer..."></textarea>
+    <div class="btn-group-lg mt-1" role="group" aria-label="Basic example">
+        <a href="#/quiz/correct"><button type="button" class="btn btn-success btn-lg">Correct</button></a>
+        <a href="#/quiz/skip"><button type="button" class="btn btn-secondary btn-lg noChangeDark">Skip</button></a>
+        <a href="#/quiz/wrong"><button type="button" class="btn btn-danger btn-lg">Wrong</button></a>
+    </div>
+</div>
+{{> footer}}

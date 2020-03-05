@@ -1,0 +1,57 @@
+{{> header}}
+<form class="mt-2" action="#/leaderboards" method="post">
+    <div class="form-group">
+        <select name="criteria" class="custom-select w-25 d-inline-block selectInput">
+            <option value="" selected hidden>Choose criteria</option>
+            <option value="experience">Experience</option>
+            <option value="correct answers">Correct answers</option>
+            <option value="wins">Wins</option>
+            <option value="cards created">Cards created</option>
+        </select>
+        <input type="submit" value="Choose" class="btn btn-success ml-2 mt-2 mb-2 d-inline-block">
+    </div>
+</form>
+<table class="table table-hover">
+    <thead>
+    <tr>
+        <th scope="col" class="w-25">Position</th>
+        <th scope="col" class="w-25">Username</th>
+        <th scope="col" class="w-25">{{criteria}}</th>
+    </tr>
+    </thead>
+    {{#if isExperience}}
+        {{#each players}}
+            <tr>
+                <td>{{inc @index}}</td>
+                <td>{{username}}</td>
+                <td>{{data.experience}}</td>
+            </tr>
+        {{/each}}
+    {{else if isCorrectAnswers}}
+        {{#each players}}
+            <tr>
+                <td>{{inc @index}}</td>
+                <td>{{username}}</td>
+                <td>{{data.correct}}</td>
+            </tr>
+        {{/each}}
+    {{else if isWins}}
+        {{#each players}}
+            <tr>
+                <td>{{inc @index}}</td>
+                <td>{{username}}</td>
+                <td>{{data.wins}}</td>
+            </tr>
+        {{/each}}
+    {{else if isCardsCreated}}
+        {{#each players}}
+            <tr>
+                <td>{{inc @index}}</td>
+                <td>{{username}}</td>
+                <td>{{data.cardsCreated}}</td>
+            </tr>
+        {{/each}}
+    {{/if}}
+    </tbody>
+</table>
+{{> footer}}

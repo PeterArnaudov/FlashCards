@@ -1,0 +1,125 @@
+.wrapper {
+    overflow: auto;
+    background-color: gray;
+}
+
+body {
+    background-color: black;
+}
+
+.startBtn {
+    width: 300px;
+    height: 60px;
+
+    font-size: 30px;
+}
+
+#notifications div {
+    right: 350px;
+    top: 1rem;
+    position: absolute;
+    border-radius: 7px;
+    display: none;
+    z-index: 1;
+    opacity: .8;
+}
+
+#notifications {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.flashCard {
+    max-height: 280px;
+    overflow: auto;
+}
+
+.btn:not(.noChangeDark), .card-body, .card-title, .card-header, .card-footer {
+    color: lightgray;
+}
+
+/** turn bootstrap.css.primary to bootstrap.css.dark **/
+.bg-primary {
+    background-color: #343a40 !important;
+}
+
+a.bg-primary:hover, a.bg-primary:focus,
+button.bg-primary:hover,
+button.bg-primary:focus {
+    background-color: #1d2124 !important;
+}
+
+.border-primary {
+    border-color: #343a40 !important;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #343a40;
+    border-color: #343a40;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #23272b;
+    border-color: #1d2124;
+}
+
+.btn-primary:focus, .btn-primary.focus {
+    box-shadow: 0 0 0 0.2rem rgba(82, 88, 93, 0.5);
+}
+
+.btn-primary.disabled, .btn-primary:disabled {
+    color: #fff;
+    background-color: #343a40;
+    border-color: #343a40;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
+.show > .btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #1d2124;
+    border-color: #171a1d;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus,
+.show > .btn-primary.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(82, 88, 93, 0.5);
+}
+/** turn bootstrap.css.primary to bootstrap.css.dark **/
+
+#userAnswer, input[type="text"], input[type="password"], .darkTextarea, .custom-select {
+    background-color: lightgray;
+}
+
+.cardAnswer {
+    color: transparent;
+    text-shadow: 0 0 5px whitesmoke;
+}
+
+.cardAnswer:hover {
+    color: inherit;
+    text-shadow: none;
+}
+
+footer {
+    color: white;
+}
+
+footer a {
+    color: lightgoldenrodyellow;
+}
+
+footer a:hover {
+    color: lightskyblue;
+}
+
+.achievementImage {
+    width: 50px;
+    height: 50px;
+}
+
+.profile {
+    color: whitesmoke;
+}

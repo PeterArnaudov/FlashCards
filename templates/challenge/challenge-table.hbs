@@ -1,0 +1,43 @@
+<tr>
+    {{#if isSender}}
+        {{#if isPending}}
+            <td>{{receiver}}</td>
+            <td>{{category}}</td>
+            <td class="text-primary">{{status}}</td>
+        {{/if}}
+        {{#if isRejected}}
+            <td>{{receiver}}</td>
+            <td>{{status}}</td>
+            <td class="text-danger">{{status}}</td>
+            <td><a href="#/challenges/:{{_id}}/delete" class="btn btn-danger" role="button">Delete</a></td>
+        {{/if}}
+        {{#if isClosed}}
+            <td>{{receiver}}</td>
+            <td>{{category}}</td>
+            <td>{{status}}</td>
+            <td><a href="#/challenges/:{{_id}}/results" class="btn btn-secondary noChangeDark" role="button">Results</a></td>
+        {{/if}}
+    {{else}}
+        {{#if isPending}}
+            <td>{{sender}}</td>
+            <td>{{category}}</td>
+            <td class="text-primary">{{status}}</td>
+            <td>
+                <a href="#/challenges/:{{_id}}/play" class="btn btn-success" role="button">Accept</a>
+                <a href="#/challenges/:{{_id}}/reject" class="btn btn-danger" role="button">Reject</a>
+            </td>
+        {{/if}}
+        {{#if isRejected}}
+            <td>{{sender}}</td>
+            <td>{{status}}</td>
+            <td class="text-danger">{{status}}</td>
+            <td><a href="#/challenges/:{{_id}}/delete" class="btn btn-danger" role="button">Delete</a></td>
+        {{/if}}
+        {{#if isClosed}}
+            <td>{{sender}}</td>
+            <td>{{category}}</td>
+            <td>{{status}}</td>
+            <td><a href="#/challenges/:{{_id}}/results" class="btn btn-secondary noChangeDark" role="button">Results</a></td>
+        {{/if}}
+    {{/if}}
+</tr>

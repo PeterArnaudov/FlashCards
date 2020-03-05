@@ -1,0 +1,13 @@
+{{> header}}
+{{#if anyCards}}
+    <div class="row w-100 mt-2 mr-auto ml-auto">
+        {{#each cards}}
+            <a href="#/details/:{{_id}}" class="text-decoration-none col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 mb-3">
+                {{> card}}
+            </a>
+        {{/each}}
+    </div>
+{{else}}
+    <h1>Go create cards!</h1>
+{{/if}}
+{{> footer}}

@@ -1,0 +1,26 @@
+<nav class="mb-2">
+    {{#if isAuth}}
+        <a href="#/start" class="btn btn-warning btn-lg mr-auto mb-1 ml-auto d-block startBtn" role="button">Start</a>
+<div class="btn-group btn-group-lg" role="group">
+    <a href="#/profile" class="btn btn-primary" role="button">Profile</a>
+    <a href="#/leaderboards/:experience" class="btn btn-primary" role="button">Leaderboards</a>
+    <a href="#/challenges" class="btn btn-primary" role="button">Challenges</a>
+    <div class="btn-group" role="group">
+        <button id="collectionDropdown" type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Collection
+        </button>
+        <div class="dropdown-menu bg-primary" aria-labelledby="collectionDropdown">
+            <a class="dropdown-item bg-primary text-white text-uppercase" href="#/myCollection">My Cards</a>
+            <a class="dropdown-item bg-primary text-white text-uppercase" href="#/collection">All Cards</a>
+        </div>
+    </div>
+    <a href="#/create" class="btn btn-primary" role="button">Create</a>
+    <a href="#/logout" class="btn btn-primary" role="button">Logout</a>
+</div>
+    {{else}}
+<div class="btn-group btn-group-lg" role="group">
+    <a href="#/login" class="btn btn-warning" role="button">Login</a>
+    <a href="#/register" class="btn btn-warning" role="button">Register</a>
+</div>
+    {{/if}}
+</nav>

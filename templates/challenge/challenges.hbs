@@ -1,0 +1,27 @@
+{{> header}}
+<form class="mt-2" action="#/challenge" method="post">
+    <div class="form-group">
+        <input type="text" name="username" class="form-control w-25 d-inline-block" placeholder="Enter username...">
+        <select name="category" class="custom-select w-25 d-inline-block selectInput">
+            <option value="" selected hidden>Choose category</option>
+            <option value="Programming">Programming</option>
+            <option value="Sports">Sports</option>
+        </select>
+        <input type="submit" value="Challenge" class="btn btn-success ml-2 mt-2 mb-2 d-inline-block">
+    </div>
+</form>
+<table class="table table-hover">
+    <thead>
+    <tr>
+        <th scope="col">Opponent</th>
+        <th scope="col">Category</th>
+        <th scope="col">Status</th>
+        <th scope="col">Actions</th>
+    </tr>
+    </thead>
+    {{#each challenges}}
+            {{> challenge}}
+    {{/each}}
+    </tbody>
+</table>
+{{> footer}}

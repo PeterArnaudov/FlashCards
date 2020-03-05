@@ -1,0 +1,67 @@
+.wrapper {
+    overflow: auto;
+    background-color: lightpink;
+}
+
+body {
+    background-color: #c77ca2;
+}
+
+.startBtn {
+    width: 300px;
+    height: 60px;
+
+    font-size: 30px;
+}
+
+#notifications div {
+    right: 350px;
+    top: 1rem;
+    position: absolute;
+    border-radius: 7px;
+    display: none;
+    z-index: 1;
+    opacity: .8;
+}
+
+#notifications {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.flashCard {
+    max-height: 280px;
+    overflow: auto;
+}
+
+.cardAnswer {
+    color: transparent;
+    text-shadow: 0 0 5px whitesmoke;
+}
+
+.cardAnswer:hover {
+    color: inherit;
+    text-shadow: none;
+}
+
+footer {
+    color: #487c90;
+}
+
+footer a {
+    color: lightgoldenrodyellow;
+}
+
+footer a:hover {
+    color: #487c90;
+}
+
+.achievementImage {
+    width: 50px;
+    height: 50px;
+}
+
+.profile {
+    color: white;
+}

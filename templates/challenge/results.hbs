@@ -1,0 +1,18 @@
+{{> header}}
+<div class="w-75 m-auto">
+    {{#if isSender}}
+        <h1><span class="text-primary">{{sender}} ({{senderPoints}})</span> VS <span class="text-danger">{{receiver}} ({{receiverPoints}})</span></h1>
+        <h2>Winner: {{winner}}</h2>
+        <div class="progress bg-primary">
+            <div class="progress-bar bg-danger" role="progressbar" style="width: {{proportion}}%"></div>
+        </div>
+    {{/if}}
+    {{#if isReceiver}}
+        <h1><span class="text-primary">{{receiver}} ({{receiverPoints}})</span> VS <span class="text-danger">{{sender}} ({{senderPoints}})</span></h1>
+        <h2>Winner: {{winner}}</h2>
+        <div class="progress bg-danger">
+            <div class="progress-bar bg-primary" role="progressbar" style="width: {{proportion}}%"></div>
+        </div>
+    {{/if}}
+    </div>
+{{> footer}}

@@ -1,0 +1,44 @@
+.wrapper {
+    overflow: auto;
+    background-color: #FFFFCE;
+}
+
+.startBtn {
+    width: 300px;
+    height: 60px;
+
+    font-size: 30px;
+}
+
+#notifications div {
+    right: 250px;
+    top: 1rem;
+    position: absolute;
+    display: none;
+    z-index: 1;
+    opacity: .8;
+    width: auto;
+    max-width: 15%;
+    overflow: auto;
+}
+
+#notifications {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.cardAnswer {
+    color: transparent;
+    text-shadow: 0 0 5px whitesmoke;
+}
+
+.cardAnswer:hover {
+    color: inherit;
+    text-shadow: none;
+}
+
+.achievementImage {
+    width: 50px;
+    height: 50px;
+}

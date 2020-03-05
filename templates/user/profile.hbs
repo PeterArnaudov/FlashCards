@@ -1,0 +1,36 @@
+{{> header}}
+<div class="w-50 m-auto profile">
+    <div class="mb-2">
+        <h1 class="mt-2">{{username}}</h1>
+        <h4><span class="badge badge-pill badge-primary w-25">{{level}}</span></h4>
+        <div class="progress w-50 m-auto" style="height: 25px;">
+            <div class="progress-bar" role="progressbar" style="width: {{experiencePercent}}%;" aria-valuenow="{{experience}}" aria-valuemin="0" aria-valuemax="{{nextLevelExperience}}">{{experience}}/{{nextLevelExperience}}</div>
+        </div>
+    </div>
+    <div class="row">
+        <h3 class="col-xl-6 col-lg-12 text-left">Correct answers: <span class="badge badge-success">{{correct}}</span></h3>
+        <h3 class="col-xl-6 col-lg-12 text-right">Wrong answers: <span class="badge badge-danger">{{wrong}}</span></h3>
+        <h3 class="col-xl-4 col-lg-12 text-left">Wins: <span class="badge badge-success">{{wins}}</span></h3>
+        <h3 class="col-xl-4 col-lg-12 text-center">Draws: <span class="badge badge-warning">{{draws}}</span></h3>
+        <h3 class="col-xl-4 col-lg-12 text-right">Losses: <span class="badge badge-danger">{{losses}}</span></h3>
+        <h3 class="col-xl-6 col-lg-12 text-left">Quizes taken: <span class="badge badge-secondary">{{quizes}}</span></h3>
+        <h3 class="col-xl-6 col-lg-12 text-right">Cards created: <span class="badge badge-secondary">{{cardsCreated}}</span></h3>
+    </div>
+    <div>
+        <h1 class="mt-2">Achievements:</h1>
+        <div class="row mt-2">
+            {{#each achievements}}
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 h-100 mb-3">
+                    <div class="card border-0 bg-transparent">
+                        <img src="{{image}}" class="card-img-top align-self-center achievementImage mt-2" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">{{name}}</h5>
+                            <p class="card-text">{{description}}</p>
+                        </div>
+                    </div>
+                </div>
+            {{/each}}
+        </div>
+    </div>
+</div>
+{{> footer}}

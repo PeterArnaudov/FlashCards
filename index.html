@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Flash Cards</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- styles -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link id="style" rel="stylesheet" href="styles/themes/styles.css">
+    <link rel="stylesheet" href="styles/custom-bootstrap.css">
+    <!-- libraries -->
+    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/handlebars/dist/handlebars.min.js"></script>
+    <script src="node_modules/sammy/lib/sammy.js"></script>
+    <script src="node_modules/sammy/lib/plugins/sammy.handlebars.js"></script>
+    <!-- default scripts -->
+    <script src="scripts/services/app.js"></script>
+    <script src="scripts/services/kinvey.js"></script>
+    <script src="scripts/services/notification.js"></script>
+    <script src="scripts/scripts.js"></script>
+    <script src="scripts/handlebars-helpers.js"></script>
+    <!-- services -->
+    <script src="scripts/services/user-service.js"></script>
+    <script src="scripts/services/card-service.js"></script>
+    <script src="scripts/services/achievement-service.js"></script>
+    <script src="scripts/services/challenge-service.js"></script>
+    <!-- handlers -->
+    <script src="scripts/handlers/home-handler.js"></script>
+    <script src="scripts/handlers/user-handler.js"></script>
+    <script src="scripts/handlers/challenge-handler.js"></script>
+    <script src="scripts/handlers/card-handler.js"></script>
+    <script src="scripts/handlers/quiz-handler.js"></script>
+    <script src="scripts/handlers/level-handler.js"></script>
+    <script src="scripts/handlers/achievement-handler.js"></script>
+    <script src="scripts/handlers/leaderboard-handler.js"></script>
+</head>
+<body>
+<div id="notifications">
+    <div id="successBox" class="alert alert-success .d-none" role="alert">{Success Message...}</div>
+    <div id="loadingBox" class="alert alert-info .d-none" role="alert">Loading...</div>
+    <div id="errorBox" class="alert alert-danger .d-none" role="alert">{Error Message...}</div>
+</div>
+<div class="wrapper container pt-2 pb-2 rounded text-center">
+    <div id="root"></div>
+    <button id="darkMode" type="button" class="btn btn-outline-dark mb-2" data-toggle="button" aria-pressed="false">Dark Mode</button>
+    <button id="unicornMode" type="button" class="btn btn-outline-purple mb-2" data-toggle="button" aria-pressed="false">Unicorn Mode</button>
+</div>
+</body>
+</html>

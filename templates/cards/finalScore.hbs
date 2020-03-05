@@ -1,0 +1,16 @@
+{{> header}}
+<div class="mt-2 mb-2">
+    <h1>You ran out of cards!</h1>
+    <h2>Your final score is:</h2>
+    <div class="card text-white bg-success w-25 d-inline-block" style="max-width: 20rem;">
+        <div class="card-body">
+            <h4 class="card-title mb-0">Correct: <h1>{{correct}}</h1></h4>
+        </div>
+    </div>
+    <div class="card text-white bg-danger w-25 d-inline-block" style="max-width: 20rem;">
+        <div class="card-body">
+            <h4 class="card-title mb-0">Wrong: <h1>{{wrong}}</h1></h4>
+        </div>
+    </div>
+</div>
+{{> footer}}

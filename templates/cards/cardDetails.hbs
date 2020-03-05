@@ -1,0 +1,8 @@
+{{> header}}
+{{> card}}
+{{# if isCreator}}
+<br>
+<a class="btn btn-info btn noChangeDark" href="#/edit/:{{id}}" role="button">Edit</a>
+<a class="btn btn-danger noChangeDark" href="#/delete/:{{id}}" role="button">Delete</a>
+{{/if}}
+{{> footer}}
